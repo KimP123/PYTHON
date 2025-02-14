@@ -1,7 +1,10 @@
-x=5
+# Fixed values
+x = 5
 y = 9
 z = 1
 
-x, y, z = z, x, y
+x, y, z = sorted([x, y, z])
 
-print(f"x = {x}, y = {y}, z = {z}")
+print(f"x = {x}")
+print(f"y = {y}")
+print(f"z = {z}")
