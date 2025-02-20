@@ -1,4 +1,3 @@
-# Fixed values
 x = 5
 y = 9
 z = 1
