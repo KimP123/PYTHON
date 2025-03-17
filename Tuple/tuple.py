@@ -1,0 +1,12 @@
+a = ("Payne", 85,4.5,True,False)
+print(a)
+print(type(a))
+print(len(a))
+d=("banana", "apple")
+print(type(d))
+
+print(a[3])
+print(a[-2])
+print(a+d)
+a=list(a)
+print(type(a))
